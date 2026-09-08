@@ -1017,10 +1017,6 @@ margin-top: 18px;
 
 }
 
-/* =========================================
-   FLOATING WHATSAPP BUTTON
-========================================= */
-
 .floating-whatsapp {
     position: fixed;
     right: 20px;
@@ -1033,38 +1029,28 @@ margin-top: 18px;
     align-items: center;
     justify-content: center;
 
-    border-radius: 50%;
+    background: #25D366;
+    color: #ffffff;
+
+border-radius: 50%;
 
     text-decoration: none;
-
-    font-size: 28px;
 
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.22);
 
     z-index: 9999;
 
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.floating-whatsapp svg {
+    width: 34px;
+    height: 34px;
+    fill: #ffffff;
 }
 
 .floating-whatsapp:hover {
     transform: translateY(-4px) scale(1.05);
     box-shadow: 0 14px 30px rgba(0, 0, 0, 0.28);
-}
-
-.floating-whatsapp span {
-    line-height: 1;
-}
-
-@media (max-width: 600px) {
-
-    .floating-whatsapp {
-        width: 54px;
-        height: 54px;
-        right: 16px;
-        bottom: 16px;
-        font-size: 25px;
-    }
-
 }
