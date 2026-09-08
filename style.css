@@ -869,3 +869,150 @@ footer p + p {
         opacity: 0.7;
     }
 }
+
+
+.owner-section {
+    padding: 100px 20px;
+    background: var(--cream);
+}
+
+.owner-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.owner-image-wrap {
+    position: relative;
+}
+
+.owner-image-wrap::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--lime);
+    border-radius: 24px;
+    top: 18px;
+    left: 18px;
+    z-index: 0;
+}
+
+.owner-image-wrap img {
+    position: relative;
+    z-index: 1;
+
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+
+    border-radius: 24px;
+    box-shadow: var(--shadow);
+}
+
+.owner-content {
+    max-width: 550px;
+}
+
+.owner-content .section-label {
+    display: inline-block;
+    margin-bottom: 18px;
+
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--green);
+}
+
+.owner-content h2 {
+    margin: 0 0 24px;
+
+    font-family: "Playfair Display", serif;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    line-height: 1.08;
+    color: var(--dark);
+}
+
+.owner-content h2 span {
+    color: var(--green);
+}
+
+.owner-content p {
+    margin: 0 0 18px;
+
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--muted);
+}
+
+.owner-content .owner-intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.owner-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+margin-top: 18px;
+    padding: 15px 22px;
+
+    background: var(--green);
+    color: var(--white);
+
+    border-radius: 999px;
+    text-decoration: none;
+
+    font-weight: 700;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.owner-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(16, 37, 27, 0.2);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+    .owner-section {
+        padding: 70px 20px;
+    }
+
+    .owner-container {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .owner-image-wrap {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+.owner-content {
+        max-width: none;
+        text-align: center;
+    }
+
+    .owner-content h2 {
+        font-size: 2.4rem;
+    }
+
+    .owner-button {
+        justify-content: center;
+    }
+
+}
