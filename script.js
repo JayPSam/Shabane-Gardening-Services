@@ -73,17 +73,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             {
                 name: "Wash-and-Wax",
-                image: "car-wash-and-wax.png"
+                image: "car-wash-and-wax.jpg"
             },
 
             {
                 name: "Tyre Silicone",
-                image: "car-tyre-silicone.png"
+                image: "car-tyre-silicone.jpg"
             },
 
             {
                 name: "Air-Freshener",
-                image: "car-air-freshener.png"
+                image: "car-air-freshener.jpg"
             }
 
         ]
