@@ -31,44 +31,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
             {
                 name: "Cleaning Product 1",
-                image: "cleaning-1.jpg"
+                image: "cleaning-1.png"
             },
 
             {
                 name: "Cleaning Product 2",
-                image: "cleaning-2.jpg"
+                image: "cleaning-2.png"
             },
 
             {
                 name: "Cleaning Product 3",
-                image: "cleaning-3.jpg"
+                image: "cleaning-3.png"
             },
 
           {
 
           name: "Cleaning Product 3",
-                image: "cleaning-3.jpg"
+                image: "cleaning-3.png"
             },
 
             {
                 name: "Cleaning Product 4",
-                image: "cleaning-4.jpg"
+                image: "cleaning-4.png"
             },
 
             {
                 name: "Cleaning Product 5",
-                image: "cleaning-5.jpg"
+                image: "cleaning-5.png"
             },
 
             {
                 name: "Cleaning Product 6",
-                image: "cleaning-6.jpg"
+                image: "cleaning-6.png"
             },
 
           {
 
           name: "Cleaning Product 7",
-                image: "cleaning-7.jpg"
+                image: "cleaning-7.png"
             }
 
         ],
@@ -77,17 +77,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
             {
                 name: "Wash-and-Wax",
-                image: "car-wash-and-wax.jpg"
+                image: "car-wash-and-wax.png"
             },
 
             {
                 name: "Tyre Silicone",
-                image: "car-tyre-silicone.jpg"
+                image: "car-tyre-silicone.png"
             },
 
             {
                 name: "Air-Freshener",
-                image: "car-air-freshener.jpg"
+                image: "car-air-freshener.png"
             }
 
         ]
