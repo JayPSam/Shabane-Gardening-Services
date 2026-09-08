@@ -30,46 +30,42 @@ document.addEventListener("DOMContentLoaded", function () {
         cleaning: [
 
             {
-                name: "Cleaning Product 1",
+                name: "Pine Gel",
                 image: "cleaning-1.png"
             },
 
             {
-                name: "Cleaning Product 2",
+                name: "Bleach",
                 image: "cleaning-2.png"
             },
 
             {
-                name: "Cleaning Product 3",
+                name: "Fabric Softener",
                 image: "cleaning-3.png"
             },
 
           {
 
-          name: "Cleaning Product 3",
+          name: "Ammonia",
                 image: "cleaning-3.png"
             },
 
             {
-                name: "Cleaning Product 4",
+                name: "Dishwasher",
                 image: "cleaning-4.png"
             },
 
             {
-                name: "Cleaning Product 5",
+                name: "Spring Freshener",
                 image: "cleaning-5.png"
             },
 
             {
-                name: "Cleaning Product 6",
+                name: "Jeyes Fluid",
                 image: "cleaning-6.png"
             },
 
-          {
-
-          name: "Cleaning Product 7",
-                image: "cleaning-7.png"
-            }
+          
 
         ],
 
